@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+#container{
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color:#F7F8F8;
+}
+
+.first-nav-div{
+    margin-left: 10px;
+    gap: 40px;
+}
+
+.second-nav-div{
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.img-logo-1{
+    width: 30px;
+    height: auto;
+    /* object fit ka kam ye hota he k width ya heigth dene k baad ye img ko apny hisab se adjust kerti he*/
+    object-fit: contain;
+}
+
+.property , .mottors{
+    margin: 0px 10px 0px 0px;
+}
+
+.img-logo-2{
+    width:50px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.input-nav-1{
+    width: 270px;
+    padding: 10px;
+    font-size:18px;
+}
+
+.input-nav-2{
+    width: 500px;
+    padding:10px;
+    font-size: 18px;
+}
+
+.input-search-icon{
+    margin-left: -10px;
+    padding: 15px;
+    background-color: #122f34;
+}
+
+.slider{
+    padding: 30px;
+}
+
+.search-button{
+    color: #ffffff;
+}
+
+.rigister{
+    position: relative;
+    left: 80px;
+}
+
+.login{
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.login > a {
+    font-weight: bold;
+    color: #122F34;
+    text-decoration: none;
+    border-bottom: 2px solid #122F34;
+}
+
+.login > a:hover {
+    border-bottom: none;
+}
+
+.sell-button{
+    position: relative;
+    right: 80px;
+    top: 10px;
+}
+
+.categories-heading{
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.categories-heading > h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-img > img{
+    width: 88px;
+    height: 88px;
+}
+
+.product-img{
+    margin-bottom:-50px;
+}
+
+.product-img > p{
+    /* position: relative; */
+    /* left: -20px; */
+    text-align: center;
+}
+
+.img-container{
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 70px;
+}
+
+.cd-head{    
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.cd-head > h1 {
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.cards{
+    margin-top: 30px;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.card > img{
+
+    height: 180px;
+
+}
+
+/* footer section */
+
+.footer-top{
+    justify-content:space-evenly;    
+    background-color: #f7f9f9e0;
+    margin-top:40px;
+    border-bottom:1px solid #BEC8CA ;
+}
+
+.footer-text{
+    width: 30%;
+    align-self: center;
+}
+
+.footer-text > h1{
+    font-weight: bold;
+}
+
+.footer-text > p{
+    font-weight: bold;
+
+    font-size: 20px;
+}
+
+.footer-app-connect>img{
+    width: 100px;
+}
+
+ .footer-app-connect{    
+        align-self: center;
+} 
+
+.footer-app-connect > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-second{
+    background-color: #EBEEEF;
+    justify-content: space-evenly;
+     margin-left:-80px ;
+    padding-top: 20px;
+    height:200px;
+} 
+
+
+.footer-second h1{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.footer-second p{
+    font-size: 12px;
+}
+
+
+.footer-child-1 , .footer-child-2 , .footer-child-3 , .footer-child-4 , .footer-child-5  {
+    line-height: 0px;
+}
+
+.footer-child-1 , .footer-child-2 , .footer-child-3 , .footer-child-4 > p{
+    line-height: 7px;
+}
+
+.footer-p{
+    color: #677578;
+}
+
+.footer-child-1 , .footer-child-2 , .footer-child-3 , .footer-child-4 > h1 {
+    color: #000000;
+}
+
+.img-app-connect{
+    width: 100px;
+}
+
+.app-footer{
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.img-social{
+    position: relative;
+    bottom:5px;
+    margin-left: 3px;
+    width: 30px;
+}
+
+.footer-contact{
+    position: relative;
+    top: 10px;
+    left: 70px;
+
+}
+
+.footer-child-5 > .footer-contact > p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.last-footer{
+    background-color: #122F34;
+    height: 40px;
+    color: #ffffff;
+}
+
+.last-footer > p{
+    position: relative;
+    left:1000px;
+    top:12px;
+    font-weight: bold;
+    font-size: 14px;
+}
